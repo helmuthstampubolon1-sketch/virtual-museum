@@ -25,14 +25,23 @@ function AudioPlayer() {
       }
       window.removeEventListener('click', handleFirstInteraction)
       window.removeEventListener('touchstart', handleFirstInteraction)
+      window.removeEventListener('mousedown', handleFirstInteraction)
+      window.removeEventListener('keydown', handleFirstInteraction)
+      window.removeEventListener('pointerdown', handleFirstInteraction)
     }
 
     window.addEventListener('click', handleFirstInteraction)
     window.addEventListener('touchstart', handleFirstInteraction)
+    window.addEventListener('mousedown', handleFirstInteraction)
+    window.addEventListener('keydown', handleFirstInteraction)
+    window.addEventListener('pointerdown', handleFirstInteraction)
 
     return () => {
       window.removeEventListener('click', handleFirstInteraction)
       window.removeEventListener('touchstart', handleFirstInteraction)
+      window.removeEventListener('mousedown', handleFirstInteraction)
+      window.removeEventListener('keydown', handleFirstInteraction)
+      window.removeEventListener('pointerdown', handleFirstInteraction)
     }
   }, [])
 
