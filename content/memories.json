@@ -2,97 +2,97 @@
   {
     "title": "Your Shy Giggle",
     "description": "The way you cover your face and laugh when I tell a silly joke. My absolute favorite view.",
-    "image": "/assets/memories/memory-1.webp",
+    "image": "assets/memories/memory-1.webp",
     "type": "photo"
   },
   {
     "title": "Sweet & Sour Cravings",
     "description": "Hunting for the perfect fresh green Juices during one of our spontaneous street food runs.",
-    "image": "/assets/memories/memory-2.webp",
+    "image": "assets/memories/memory-2.webp",
     "type": "photo"
   },
   {
     "title": "City Lights & You",
     "description": "The skyline was bright and beautiful that night, but my favorite view was still standing right next to me.",
-    "image": "/assets/memories/memory-3.webp",
+    "image": "assets/memories/memory-3.webp",
     "type": "photo"
   },
   {
     "title": "Ramen Date Nights",
     "description": "Warm bowls, steaming broth, and sharing crispy gyoza while talking about absolutely everything.",
-    "image": "/assets/memories/memory-4.webp",
+    "image": "assets/memories/memory-4.webp",
     "type": "photo"
   },
   {
     "title": "Spicy & Cozy Feasts",
     "description": "Enjoying the perfect combination of spicy soup and sweet noodles, making rainy days taste so much better.",
-    "image": "/assets/memories/memory-5.webp",
+    "image": "assets/memories/memory-5.webp",
     "type": "photo"
   },
   {
     "title": "Our Favorite Place",
     "description": "Hunting for the most delicious duck at our absolute favorite spot in Semanggi, Searching for the Best Bebek Madura dish. Xixi",
-    "image": "/assets/memories/memory-6.webp",
+    "image": "assets/memories/memory-6.webp",
     "type": "photo"
   },
   {
     "title": "The Best Alibi",
     "description": "Picking you up after work became my absolute favorite excuse just to take you on movie dates and eat delicious food at Kokas.",
-    "image": "/assets/memories/memory-7.webp",
+    "image": "assets/memories/memory-7.webp",
     "type": "photo"
   },
   {
     "title": "Our Perfect Sanctuary",
     "description": "Treating ourselves to a massage at the most relaxing and romantic place we've ever found, where the world stood still and all our worries melted away.",
-    "image": "/assets/memories/memory-8.webp",
+    "image": "assets/memories/memory-8.webp",
     "type": "photo"
   },
   {
     "title": "A Sweet Valentine",
     "description": "The special box of chocolates I gave you to celebrate Valentine's Day—a sweet little token for the sweetest person in my life.",
-    "image": "/assets/memories/memory-9.webp",
+    "image": "assets/memories/memory-9.webp",
     "type": "photo"
   },
   {
     "title": "The Most Beautiful View",
     "description": "The most beautiful woman in the world, standing in the most beautiful place—a view I could stare at forever.",
-    "image": "/assets/memories/memory-10.webp",
+    "image": "assets/memories/memory-10.webp",
     "type": "photo"
   },
   {
     "title": "Sweet Gelato Cheers",
     "description": "A sweet toast of melting gelato waffle cones on a warm evening—making ordinary nights feel so much more magical.",
-    "image": "/assets/memories/memory-11.webp",
+    "image": "assets/memories/memory-11.webp",
     "type": "photo"
   },
   {
     "title": "A New Horizon",
     "description": "Taking a little trip to explore PIK together, wandering around a beautiful new place we had never been to before.",
-    "image": "/assets/memories/memory-12.webp",
+    "image": "assets/memories/memory-12.webp",
     "type": "photo"
   },
   {
     "title": "A Day by the Vitamin Sea",
     "description": "Exploring Aloha Pasir Putih at PIK, holding hands under the palm trees and breathing in the ocean breeze.",
-    "image": "/assets/memories/memory-13.webp",
+    "image": "assets/memories/memory-13.webp",
     "type": "photo"
   },
   {
     "title": "Moments in Motion",
     "description": "Capturing your laughter in full motion, proving that some memories are just too lively for a static photo.",
-    "image": "/assets/memories/memory-video-1.mp4",
+    "image": "assets/memories/memory-video-1.mp4",
     "type": "video-portrait"
   },
   {
     "title": "A Glimpse of Happiness",
     "description": "Just a few sweet seconds of your radiant smile, saved in motion to replay whenever I need a little warmth.",
-    "image": "/assets/memories/memory-video-2.mp4",
+    "image": "assets/memories/memory-video-2.mp4",
     "type": "video-portrait"
   },
   {
     "title": "Our Shared Seconds",
     "description": "A tiny snippet of our beautiful journey, kept alive in moving frames to remind us of the joy we share.",
-    "image": "/assets/memories/memory-video-3.mp4",
+    "image": "assets/memories/memory-video-3.mp4",
     "type": "video-landscape"
   }
 ]

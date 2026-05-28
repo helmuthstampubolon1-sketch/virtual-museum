@@ -60,7 +60,7 @@ function AudioPlayer() {
     <div className="audio-player-container">
       <audio
         ref={audioRef}
-        src="/assets/audio/background-music.mp3"
+        src="assets/audio/background-music.mp3"
         loop
         autoPlay
       />
