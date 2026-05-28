@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite' 
 import react from '@vitejs/plugin-react' 
 
-export default defineConfig({ 
+export default defineConfig(({ command }) => ({ 
 
   plugins: [react()], 
 
-  base: '/virtual-museum/', 
+  base: command === 'build' ? '/virtual-museum/' : '/', 
 
   build: { 
 
@@ -17,4 +17,4 @@ export default defineConfig({
 
     chunkSizeWarningLimit: 1000, 
   } 
-}) 
+}))

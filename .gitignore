@@ -25,9 +25,3 @@ dist-ssr
 
 # Raw new assets
 new/
-
-# Ignore all video assets to keep git lightweight
-public/assets/**/*.mov
-public/assets/**/*.MOV
-public/assets/**/*.mp4
-public/assets/**/*.MP4

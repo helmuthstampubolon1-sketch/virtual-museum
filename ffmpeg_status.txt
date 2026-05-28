@@ -1,0 +1,9 @@
+--- FFMPEG COMPRESSION STATUS ---
+FFmpeg is installed!
+ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+Compressing IMG_0374.MOV -> memory-video-1.mp4...
+Success! New size: 2.06 MB
+Compressing IMG_0655.MOV -> memory-video-2.mp4...
+Success! New size: 0.18 MB
+Compressing IMG_3236.mov -> memory-video-3.mp4...
+Success! New size: 4.81 MB
