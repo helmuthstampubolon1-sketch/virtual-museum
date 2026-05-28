@@ -9,6 +9,13 @@ function SmartImage({
   const [loaded, setLoaded] = useState(false) 
   const imgRef = useRef(null)
 
+  const getAbsoluteSrc = (path) => {
+    if (!path) return '';
+    if (path.startsWith('http') || path.startsWith('data:')) return path;
+    const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+    return `${import.meta.env.BASE_URL}${cleanPath}`;
+  };
+
   useEffect(() => {
     if (imgRef.current?.complete) {
       setLoaded(true)
@@ -18,7 +25,7 @@ function SmartImage({
   return ( 
     <img 
       ref={imgRef}
-      src={src} 
+      src={getAbsoluteSrc(src)} 
       alt={alt} 
       loading="lazy" 
       className={` 
