@@ -1,0 +1,92 @@
+.letter-section { 
+
+  position: relative; 
+
+  min-height: 100vh; 
+
+  display: flex; 
+  align-items: center; 
+
+  overflow: hidden; 
+} 
+
+.letter-background-glow { 
+
+  position: absolute; 
+  inset: 0; 
+
+  background: 
+    radial-gradient( 
+      circle at center, 
+      rgba(255,255,255,0.04), 
+      transparent 55% 
+    ); 
+
+  pointer-events: none; 
+} 
+
+.letter-layout { 
+
+  position: relative; 
+  z-index: 2; 
+
+  max-width: 900px; 
+
+  display: flex; 
+  flex-direction: column; 
+  gap: 40px; 
+} 
+
+.letter-content { 
+
+  display: flex; 
+  flex-direction: column; 
+  gap: 32px; 
+} 
+
+.letter-content h1 { 
+
+  font-family: var(--font-heading); 
+
+  font-size: 
+    clamp(3rem, 7vw, 6rem); 
+
+  line-height: 1; 
+
+  margin-bottom: 20px; 
+} 
+
+.letter-content p { 
+
+  max-width: 760px; 
+
+  font-size: 1.2rem; 
+  line-height: 2.1; 
+
+  color: var(--color-text-soft); 
+} 
+
+.letter-content strong { 
+  color: var(--color-text); 
+} 
+
+@media (max-width: 768px) { 
+
+  .letter-layout { 
+    gap: 32px; 
+  } 
+
+  .letter-content h1 { 
+ 
+    font-size: 
+      clamp(2.5rem, 12vw, 4rem); 
+ 
+    line-height: 1; 
+  } 
+
+  .letter-content p { 
+
+    font-size: 1rem; 
+    line-height: 2; 
+  } 
+} 

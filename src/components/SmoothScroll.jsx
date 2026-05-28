@@ -1,0 +1,31 @@
+import { useEffect } from 'react' 
+import Lenis from 'lenis' 
+
+function SmoothScroll({ children }) { 
+
+  useEffect(() => { 
+
+    const lenis = new Lenis({ 
+      duration: 1.2, 
+      smoothWheel: true, 
+      smoothTouch: true, 
+      touchMultiplier: 1.2, 
+    }) 
+
+    function raf(time) { 
+      lenis.raf(time) 
+      requestAnimationFrame(raf) 
+    } 
+
+    requestAnimationFrame(raf) 
+
+    return () => { 
+      lenis.destroy() 
+    } 
+
+  }, []) 
+
+  return children 
+} 
+
+export default SmoothScroll 

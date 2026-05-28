@@ -1,0 +1,80 @@
+.audio-player-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.audio-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 18px;
+  border-radius: 100px;
+  color: var(--color-text);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.audio-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.music-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 12px;
+  width: 15px;
+}
+
+.bar {
+  width: 2px;
+  background: var(--color-text);
+  height: 4px;
+  transition: height 0.3s ease;
+}
+
+.is-playing .bar {
+  animation: barPulse 1s ease-in-out infinite;
+}
+
+.is-playing .bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.is-playing .bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes barPulse {
+  0%, 100% { height: 4px; }
+  50% { height: 12px; }
+}
+
+.audio-status-text {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .audio-player-container {
+    bottom: 24px;
+    right: 20px;
+  }
+  
+  .audio-status-text {
+    display: none;
+  }
+  
+  .audio-toggle-btn {
+    padding: 12px;
+  }
+}

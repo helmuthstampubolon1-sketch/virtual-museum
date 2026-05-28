@@ -1,0 +1,80 @@
+.fade-in { 
+
+  opacity: 0; 
+
+  transform: 
+    translateY(40px) 
+    scale(0.98); 
+
+  filter: blur(8px); 
+
+  transition: 
+    opacity 1.2s ease, 
+    transform 1.2s ease, 
+    filter 1.2s ease; 
+} 
+
+.fade-in.visible { 
+
+  opacity: 1; 
+
+  transform: 
+    translateY(0) 
+    scale(1); 
+
+  filter: blur(0); 
+} 
+
+.slow-zoom img { 
+  transform: scale(1.04); 
+  transition: transform 6s ease; 
+} 
+
+.slow-zoom:hover img { 
+  transform: scale(1); 
+} 
+
+.grain-overlay { 
+  position: fixed; 
+  inset: 0; 
+
+  pointer-events: none; 
+
+  opacity: 0.04; 
+
+  background-image: 
+    url("https://grainy-gradients.vercel.app/noise.svg"); 
+
+  z-index: 999; 
+} 
+
+@keyframes ambientFloat { 
+
+  0% { 
+    transform: translateY(0px); 
+  } 
+
+  50% { 
+    transform: translateY(-10px); 
+  } 
+
+  100% { 
+    transform: translateY(0px); 
+  } 
+} 
+
+.display-title { 
+  animation: 
+    ambientFloat 8s ease-in-out infinite; 
+} 
+
+@media (max-width: 768px) { 
+ 
+  .grain-overlay { 
+    opacity: 0.025; 
+  } 
+
+  .fade-in { 
+    filter: none !important; 
+  } 
+} 
